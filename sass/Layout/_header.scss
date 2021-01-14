@@ -1,0 +1,116 @@
+.header__content {
+    .navbar-collapse {
+       margin-left: 550px;
+        font-size: 20px;
+        .navbar-nav {  
+            .nav-item{
+                .nav-link {
+                    color: black;
+                    &:hover {
+                        color: #fb4226;
+                    }
+                }
+            }
+        }
+        .signIn {
+            img {
+                width: 35px;
+                height: 35px;
+                margin-right: 10px;
+                border-radius: 50%;
+            }
+            a {
+                color: #9b9b9b;
+                font-size: 15px;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            ::after {
+                content: '';
+                border-right: 2px solid #9b9b9b;
+                margin-left: 10px;
+            }
+        }
+        .location {
+            span {
+                margin-left: 15px;
+            }
+            select {
+                border: none;
+                font-size: 15px;
+                color: #9b9b9b;
+                &:focus {
+                    outline: none;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1700px){
+    .header__content {
+        .navbar-collapse {
+            margin-left: 450px;
+        }
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .header__content {
+        .navbar-collapse {
+            margin-left: 400px;
+        }  
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .header__content {
+        .navbar-collapse {
+            margin-left: 350px;
+        }  
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .header__content {
+        .navbar-collapse {
+            margin-left: 300px;
+        }  
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .header__content {
+        .navbar-collapse {
+            margin-left: 250px;
+        }  
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .header__content {
+        .navbar-collapse {
+            margin-left: 200px;
+        }  
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .header__content {
+        .navbar-collapse {
+            margin-left: 150px;
+        }  
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .header__content {
+        .navbar-collapse {
+            margin-left: 100px;
+        }  
+    }
+}
+
+
